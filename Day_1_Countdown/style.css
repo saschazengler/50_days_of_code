@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4D9DE0;
+    margin: 0;
+}
+
+.countdownBox {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #E1BC29;
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+
+.title, #countdown {
+    font-family: Avenir, sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
