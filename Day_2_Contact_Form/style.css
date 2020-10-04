@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #498AD4;
+}
+
+#container {
+    width: 37.5em;
+    height: 37.5em;
+    background-color: #EDF7F6;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+
+#title {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    color: #4f4f4f;
+}
+
+#form {
+    display: flex;
+    flex-flow: column;
+}
+
+form > * {
+    font-family: Avenir, sans-serif;
+    font-size: 0.8em;
+    color: #4f4f4f;
+    margin: 0.3em;
+}
+
+#vaildationMessage {
+    display: none;
+}
+
+#successMessage {
+    font-family: Avenir, sans-serif;
+    font-size: 1.5em;
+    color: #4f4f4f;
+    display: none;
+}
