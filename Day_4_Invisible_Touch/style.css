@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.splitScreenContainer {
+    display: flex;
+}
+
+.leftSideContainer {
+    display: flex;
+    flex-flow: column;
+}
+
+.infoContainer {
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEAA9;
+}
+
+h1 {
+    font-family: Avenir, sans-serif;
+    font-size: 3em;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #FFAF99;
+}
+
+.keyboardContainer {
+    width: 70vw;
+    height: 70vh;
+    background-color: #FFAF99;
+}
+
+.keyboardContainer > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.keyProperty {
+    width: 5em;
+    height: 5em;
+    margin: 0.2em;
+    border-radius: 0.3em;
+}
+
+.bigKey {
+    flex-grow: 2;
+}
+
+.keyPressed {
+    background-color: #98d8ec;
+}
+
+.keyOrientation {
+    font-family: Avenir, sans-serif;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    line-height: 5em;
+}
+
+.displayKeyContainer {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A6DDAA;
+}
+
+h2 {
+    font-family: Avenir, sans-serif;
+    font-size: 7em;
+    color: #fff;
+}
+
+
