@@ -6,3 +6,4 @@
 4. Invisible Touch
 5. Pricing Design
 6. Shell Quiz
+7. Password Generator
