@@ -14,8 +14,8 @@ const signatureText = `1000 Mark Andre & <br> Coca Olaf & <br> Bifi Maik.`;
 const collectionTexts = [showText, teamText, fansText, characterText, moderatorText, signatureText];
 const collectionColors = ['#9AC4F8', '#E893AD', '#74E7B9', '#CB958E', '#FCD29F', '#C490D1'];
 
-
 let counter = 0;
+
 
 function displayText() {
     if (counter <= 5) {
