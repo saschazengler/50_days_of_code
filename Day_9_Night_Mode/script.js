@@ -8,7 +8,7 @@ lightModeStyle.href = 'lightModeStyle.css';
 let uiStatus = false;
 
 
-uiModeButton.addEventListener('click', () => {
+function applyColorScheme() {
     if (uiStatus === false) {
         head.appendChild(lightModeStyle);
         uiStatus = true;
@@ -16,4 +16,6 @@ uiModeButton.addEventListener('click', () => {
         head.removeChild(lightModeStyle);
         uiStatus = false;
     };
-});
+};
+
+uiModeButton.addEventListener('click', () => applyColorScheme());
