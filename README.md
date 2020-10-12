@@ -8,3 +8,4 @@
 6. Shell Quiz
 7. Password Generator
 8. Jan & Oli
+9. Night Mode

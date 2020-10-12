@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #2B2728;
+    margin: 0;
+}
+
+#nightModeContainer {
+    width: 3em;
+    height: 1.5em;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 1.8em;
+    right: 1.8em;
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 0.1em;
+}
+
+#nightModeButton {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #2B2728;
+    border-radius: 100%;
+}
+
+#nightModeButton:hover {
+    cursor: pointer;
+}
+
+h3 {
+    width: 400px;
+    font-family: Roboto Mono, monospace;
+    font-size: 26px;
+    color: #F7BDC9;
+    margin: 0;
+}
+
+span {
+    color: #F7BDC9;
+}
+
+a {
+    text-decoration: none;
+    color: #F7BDC9;
+}
+
+.flexContainer {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 100px;
+}
+
+.headerContainer {
+    display: flex;
+}
+
+.header {
+    font-family: Avenir, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    margin: 40px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 40px 0 40px;
+}
+
+.contact {
+    font-family: Roboto Mono, monospace, sans-serif;
+    font-size: 18px;
+    color: #F7BDC9;
+}
+
+.contact:hover {
+    color: #fff;
+}
+
+.projectsContainer, .techStackContainer, .businessContainer {
+    display: flex;
+    margin: 100px 0 0 40px;
+}
+
+.linkContainer {
+    display: flex;
+    flex-flow: column;
+}
+
+.projects, .techStack, .business {
+    font-family: Roboto Mono, monospace;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.projects:hover, .techStack:hover, .business:hover {
+    color: #F7BDC9;
+}
+
+.underscore {
+    font-size: 52px;
+}
