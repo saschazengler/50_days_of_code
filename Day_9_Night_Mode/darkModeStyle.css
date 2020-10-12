@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-#nightModeContainer {
+#uiModeContainer {
     width: 3em;
     height: 1.5em;
     position: absolute;
@@ -19,14 +19,14 @@ body {
     padding: 0.1em;
 }
 
-#nightModeButton {
+#uiModeButton {
     width: 1.5em;
     height: 1.5em;
     background-color: #2B2728;
     border-radius: 100%;
 }
 
-#nightModeButton:hover {
+#uiModeButton:hover {
     cursor: pointer;
 }
 
