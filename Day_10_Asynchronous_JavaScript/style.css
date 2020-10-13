@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.exampleContainer {
+    display: flex;
+}
+
+.syncExample {
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63B4CF;
+}
+
+.asyncExample {
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF99AC;
+}
+
+span {
+    font-family: Avenir, sans-serif;
+    font-size: 3.5em;
+    color: #fff;
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.functionButton {
+    width: 50vw;
+    height: 70vh;
+    font-family: Avenir, sans-serif;
+    font-size: 7em;
+    color: #fff;
+    transition: letter-spacing, 0.4s;
+    border: none;
+}
+
+.functionButton:hover {
+    cursor: pointer;
+    letter-spacing: 0.02em;
+}
+
+#syncButton {
+    background-color: #82C3D9;
+}
+
+#syncButton:hover {
+    background-color: #63B4CF;
+}
+
+#asyncButton {
+    background-color: #FFCAD4;
+}
+
+#asyncButton:hover {
+    background-color: #FF99AC;
+}
+
