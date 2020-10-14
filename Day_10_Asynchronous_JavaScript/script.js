@@ -13,6 +13,7 @@ function syncDisplay() {
 
 function asyncDisplay() {
     syncText.innerText = 'I\'m already here.'
+    asyncText.innerText = '';
 
     setTimeout(() => {
         asyncText.innerText = 'I waited 1 second for being print out.';
