@@ -10,3 +10,4 @@
 8. Jan & Oli
 9. Night Mode
 10. Asynchronous JavaScript
+11. Local Storage
