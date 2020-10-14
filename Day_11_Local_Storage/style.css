@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #252221;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.localContainer {
+    display: flex;
+    flex-flow: column;
+    margin: 0 3em 0 0;
+}
+
+.sessionContainer {
+    display: flex;
+    flex-flow: column;
+    margin: 0 0 0 3em;
+}
+
+.localStorageInput {
+    width: 30em;
+    height: 5em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    line-height: 5em;
+    text-align: center;
+    color: #ebebeb;
+    background-color: #4B4847;
+    margin: 2em 0em;
+    border: none;
+    border-radius: 1em;
+    outline: 0;
+}
+
+.localStorageInput:hover {
+    cursor: pointer;
+    background-color: #5F5A59;
+}
+
+.sessionStorageInput {
+    width: 30em;
+    height: 5em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    line-height: 5em;
+    text-align: center;
+    color: #ebebeb;
+    background-color: #4B4847;
+    margin: 2em 0em;
+    border: none;
+    border-radius: 1em;
+    outline: 0;
+}
+
+.sessionStorageInput:hover {
+    cursor: pointer;
+    background-color: #5F5A59;
+}
