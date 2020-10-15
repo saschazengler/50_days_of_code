@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #111;
+    box-sizing: border-box;
+}
+
+body > * {
+    font-family: Avenir Next, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#userInput {
+    width: 600px;
+    height: 80px;
+    background-color: #111;
+    border: none;
+    margin-bottom: 1em;
+    padding: 0 20px;
+    outline: none;
+}
+
+.submitButton {
+    width: 600px;
+    height: 80px;
+    text-transform: uppercase;
+    background-color: #111;
+    border: 2px solid #fff;
+    margin-top: 1em;
+    opacity: 0;
+    transition: opacity 4s;
+}
+
+#submitButtonHover:hover {
+    cursor: pointer;
+    color: #afafaf;
+    border-color: #afafaf;
+}
+
+#submitMessage {
+    display: none;
+    text-transform: uppercase;
+    color: #fff;
+}
