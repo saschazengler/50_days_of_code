@@ -11,3 +11,4 @@
 9. Night Mode
 10. Asynchronous JavaScript
 11. Local Storage
+12. Minimal Text Input
