@@ -16,14 +16,14 @@ function handleUserInput() {
     };
 };
 
+body.addEventListener('keydown', () => handleUserInput());
+
 
 function submitUserInput() {
     userInput.style.display = 'none';
     submitButton.style.display = 'none';
-    submitMessage.style.display = 'block';
+    submitMessage.style.opacity = '1';
 };
 
-
-body.addEventListener('keydown', () => handleUserInput());
 submitButton.addEventListener('click', () => userInput.value !== '' ? submitUserInput() : undefined);
 userInput.addEventListener('keypress', (event) => event.key === 'Enter' ? submitUserInput() : undefined);
