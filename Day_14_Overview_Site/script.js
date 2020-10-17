@@ -18,7 +18,7 @@ const projects = [ undefined,
     },
     {   
         title: 'Pricing Design',
-        link: '/100_days_of_code/Day_5_Pricing_design'
+        link: '/100_days_of_code/Day_5_Pricing_Design'
     },
     {
         title: 'zsh Quiz',
