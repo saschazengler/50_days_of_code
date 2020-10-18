@@ -11,8 +11,8 @@ function changeMenuToCross() {
     thirdLine.style.transform = 'rotate(-45deg) translate(20px, -20px)';
     secondLine.style.opacity = '0';
 
-    firstLine.style.backgroundColor = '#F9C784';
-    thirdLine.style.backgroundColor = '#F9C784';
+    firstLine.style.backgroundColor = '#F3F7F0';
+    thirdLine.style.backgroundColor = '#F3F7F0';
     
     firstLine.style.borderRadius = '0.5em';
     thirdLine.style.borderRadius = '0.5em';
@@ -29,8 +29,8 @@ function changeMenuToBurger() {
     firstLine.style.borderRadius = '0em';
     thirdLine.style.borderRadius = '0em';
 
-    firstLine.style.backgroundColor = '#e7e7e7';
-    thirdLine.style.backgroundColor = '#e7e7e7';
+    firstLine.style.backgroundColor = '#A93F55';
+    thirdLine.style.backgroundColor = '#A93F55';
     
     menuStatus = true;
 };
