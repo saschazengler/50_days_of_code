@@ -118,14 +118,19 @@ p {
 
 /* media query smartphone */
 @media screen and (max-width: 767px) {
+    body {
+        /* width: 100vw;
+        height: 100vh; */
+    }
+    
     #selectionContainer {
-        max-height: 60vh;
+        height: 60vh;
         flex-flow: column nowrap;
     }
 
     .selectionCard {
         width: 100vw;
-        height: 15em;
+        /* height: 15em; */
         border: none;
         border-radius: 0;
     }
@@ -136,7 +141,7 @@ p {
     }
 
     .passwordContainer {
-        max-height: 40vh;
+        height: 40vh;
     }
 
     #userPassword {
