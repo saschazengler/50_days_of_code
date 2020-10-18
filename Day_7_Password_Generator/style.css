@@ -59,8 +59,7 @@ p {
 }
 
 #userPassword {
-    width: 7em;
-    height: 1.4em;
+    width: 8em;
     font-family: Avenir, sans-serif;
     font-size: 4em;
     text-align: center;
@@ -71,14 +70,12 @@ p {
 }
 
 #copyButton {
-    width: 3em;
-    margin-left: 1em;
     font-family: Avenir, sans-serif;
     font-size: 2em;
     color: #141301;
-    text-align: center;
     border: 0.2em solid #141301;
     border-radius: 0.4em;
+    margin-left: 1em;
     padding: 0.3em;
 }
 
@@ -88,10 +85,56 @@ p {
     color: #F5C469;
 }
 
-/* #userPasswordHash {
-    line-height: 20px;
-} */
+/* media query tablet */
+@media screen
+    and (min-width: 768px)
+    and (max-width: 1023px) {
+        .selectionCard {
+            width: 12em;
+            height: 12em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        
+        p {
+            font-size: 1em;
+            text-align: center;
+        }
 
-/* #passwordOutput {
-    display: none;
-} */
+        #userPassword {
+            font-family: Avenir, sans-serif;
+            font-size: 3em;
+        }
+
+        #copyButton {
+            font-size: 1.5em;
+        }
+}
+
+/* media query smartphone */
+@media screen and (max-width: 767px) {
+    #selectionContainer {
+        flex-flow: column nowrap;
+    }
+
+    .selectionCard {
+        width: 100vw;
+        height: 15em;
+        border: none;
+        border-radius: 0;
+    }
+
+    .selectionCard:nth-child(even) {
+        border-top: 0.2em solid #F5C469;
+        border-bottom: 0.2em solid #F5C469;
+    }
+
+    #userPassword {
+        font-size: 1.5em;
+    }
+
+    #copyButton {
+        font-size: 1em;
+    }
+}

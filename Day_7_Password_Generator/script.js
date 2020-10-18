@@ -18,7 +18,7 @@ function removeBackgroundColor(event, a, b) {
 
 
 function helloKittyPassword() {
-    let password = '🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱'
+    let password = '🐱🐱🐱🐱🐱🐱'
     
     helloKitty.addEventListener('click', (event) => {
         removeBackgroundColor(event, cia, fortKnox);
@@ -41,7 +41,7 @@ function ciaPassword() {
         
         cia.style.backgroundColor = '#F5C469';
         password = Math.random().toString(36).substring(2, 12);
-        userPassword.innerText = '**********';
+        userPassword.innerText = '✖️✖️✖️✖️✖️✖️✖️';
 
         unHashPassword(password);
         hashPassword(password);
@@ -78,7 +78,7 @@ function fortKnoxPassword() {
         password = password.join('');
 
         
-        userPassword.innerText = '**********';
+        userPassword.innerText = '✖️✖️✖️✖️✖️✖️✖️';
 
         unHashPassword(password);
         hashPassword(password);
@@ -93,7 +93,7 @@ function unHashPassword(password) {
         if (event.target === userPassword) {
             userPassword.innerText = password;
         } else {
-            userPassword.innerText = '**********';
+            userPassword.innerText = '✖️✖️✖️✖️✖️✖️✖️';
         };
     });
 };
@@ -107,7 +107,7 @@ function hashPassword(password) {
         if (event.target !== userPassword) {
             console.log(false);
         } else {
-            userPassword.innerText = '**********';
+            userPassword.innerText = '✖️✖️✖️✖️✖️✖️✖️';
         };
     });
 };
