@@ -16,43 +16,50 @@ body {
     width: 20em;
     height: 30em;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     flex-flow: column wrap;
     border: 0.3em solid #000;
     border-radius: 2em;
+}
+
+#starter {
     background: linear-gradient(45deg, #2E3CF9, #C20EDF);
 }
 
-h2 {
+#pro {
+    background: linear-gradient(45deg, #f5f92e, #df6c0e);
+}
+
+#enterprise {
+    background: linear-gradient(45deg, #2ef961, #460edf);
+}
+
+h2, p, span, button {
     font-family: Avenir, sans-serif;
-    font-size: 2em;
     color: #fff;
+}
+
+h2 {
+    font-size: 2em;
     margin-top: 1em;
 }
 
 p {
-    font-family: Avenir, sans-serif;
     font-size: 1em;
-    color: #fff;
     margin: 1em;
 }
 
 span {
-    font-family: Avenir, sans-serif;
     font-size: 2.5em;
-    color: #fff;
     margin: 2em;
 }
 
 button {
     width: 12em;
     height: 4em;
-    font-family: Avenir, sans-serif;
     font-size: 1em;
-    color: #fff;
     background-color: transparent;
-    border: 0.3em solid #fff;
+    border: 0.125em solid #fff;
     border-radius: 1em;
     transition: letter-spacing, 0.3s;
 }
@@ -60,5 +67,22 @@ button {
 button:hover {
     cursor: pointer;
     letter-spacing: 0.125em;
-    background-color: #000;
+}
+
+/* media query tablet */
+@media screen
+    and (min-width: 768px)
+    and (max-width: 1023px) {
+        body {
+            height: 100em;
+            flex-flow: column nowrap;
+        }
+}
+
+/* media query smartphone */
+@media screen and (max-width: 767px) {
+    body {
+        height: 100em;
+        flex-flow: column nowrap;
+    }
 }
