@@ -1,5 +1,4 @@
 const countdown = document.getElementById('countdown');
-
 let endDate = new Date('Jan 11, 2021 11:59:59').getTime();
 
 let x = setInterval(function () {
