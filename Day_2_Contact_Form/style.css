@@ -65,6 +65,8 @@ form > * {
 /* media query smartphone */
 @media screen and (max-width: 767px) {
     body {
+        width: 100vw;
+        height: 100vh;
         background-color: #222;
     }
 
