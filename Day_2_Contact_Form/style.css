@@ -1,51 +1,85 @@
 body {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #222;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #498AD4;
 }
 
 #container {
     width: 37.5em;
     height: 37.5em;
-    background-color: #EDF7F6;
     display: flex;
-    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
+    background-color: #3D405B;
     border-radius: 2em;
 }
 
 #title {
     font-family: Avenir, sans-serif;
     font-size: 2em;
-    color: #4f4f4f;
+    color: #fff;
 }
 
 #form {
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
 }
 
 form > * {
     font-family: Avenir, sans-serif;
     font-size: 0.8em;
-    color: #4f4f4f;
-    margin: 0.3em;
+    color: #fff;
+    background-color: #3D405B;
+    margin: 0.5em;
+}
+
+.input {
+    border: 0.1em solid #fff;
+    border-radius: 0.7em;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #35395c;
 }
 
 #vaildationMessage {
     display: none;
+    color: #E07A5F;
 }
 
 #successMessage {
     font-family: Avenir, sans-serif;
     font-size: 1.5em;
-    color: #4f4f4f;
+    color: #fff;
     display: none;
+}
+
+/* media query smartphone */
+@media screen and (max-width: 767px) {
+    body {
+        background-color: #222;
+    }
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        background-color: #222;
+    }
+
+    form > * {
+        background-color: #222;
+    }
+
+    #successMessage {
+        font-size: 1em;
+    }
 }

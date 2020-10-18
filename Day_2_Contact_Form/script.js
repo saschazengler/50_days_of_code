@@ -23,13 +23,12 @@ function emailValidation() {
 };
 
 
-button.addEventListener('click', () => {
+function submitForm(emailValidation) {
     if (emailValidation() === true) {
         userInput.push(surename.value);
         userInput.push(name.value);
         userInput.push(emailAddress.value);
         userInput.push(textarea.value);
-        console.log(userInput);
         
         surename.value = '';
         name.value = '';
@@ -40,4 +39,6 @@ button.addEventListener('click', () => {
         title.style.display = 'none';
         successMessage.style.display = 'block';
     };
-});
+};
+
+button.addEventListener('click', () => submitForm(emailValidation));
