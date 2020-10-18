@@ -23,7 +23,7 @@ function displayText() {
         counter = 0;
         text.innerHTML = collectionTexts[counter];
         body.style.backgroundColor = collectionColors[counter];
-        counter++
+        counter++;
     };
 };
 
