@@ -102,6 +102,10 @@ p {
             text-align: center;
         }
 
+        .passwordContainer {
+            max-height: 100%;
+        }
+
         #userPassword {
             font-family: Avenir, sans-serif;
             font-size: 3em;
@@ -115,6 +119,7 @@ p {
 /* media query smartphone */
 @media screen and (max-width: 767px) {
     #selectionContainer {
+        max-height: 60vh;
         flex-flow: column nowrap;
     }
 
@@ -128,6 +133,10 @@ p {
     .selectionCard:nth-child(even) {
         border-top: 0.2em solid #F5C469;
         border-bottom: 0.2em solid #F5C469;
+    }
+
+    .passwordContainer {
+        max-height: 40vh;
     }
 
     #userPassword {
