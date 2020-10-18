@@ -55,6 +55,10 @@ const projects = [ undefined,
     {
         title: 'Overview Site',
         link: '/100_days_of_code/Day_14_Overview_Site'
+    },
+    {
+        title: 'Hover Board',
+        link: '/100_days_of_code/Day_15_Hover_Board'
     }
 ];
 
