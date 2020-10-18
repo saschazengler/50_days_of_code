@@ -37,8 +37,8 @@ const projects = [ undefined,
         link: '/100_days_of_code/Day_9_Night_Mode'
     },
     {
-        title: 'Asynchronous JavaScript',
-        link: '/100_days_of_code/Day_10_Asynchronous_JavaScript'
+        title: 'Asynchronous JS',
+        link: '/100_days_of_code/Day_10_Asynchronous_JS'
     },
     {
         title: 'Local Storage',
@@ -49,8 +49,8 @@ const projects = [ undefined,
         link: '/100_days_of_code/Day_12_Minimal_Text_Input'
     },
     {
-        title: 'Silverstein Music Videos',
-        link: '/100_days_of_code/Day_13_Silverstein_Musicvideos'
+        title: 'Silverstein Videos',
+        link: '/100_days_of_code/Day_13_Silverstein_Videos'
     },
     {
         title: 'Overview Site',
