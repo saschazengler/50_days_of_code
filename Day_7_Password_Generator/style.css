@@ -118,11 +118,6 @@ p {
 
 /* media query smartphone */
 @media screen and (max-width: 767px) {
-    body {
-        /* width: 100vw;
-        height: 100vh; */
-    }
-    
     #selectionContainer {
         height: 60vh;
         flex-flow: column nowrap;
@@ -130,7 +125,7 @@ p {
 
     .selectionCard {
         width: 100vw;
-        /* height: 15em; */
+        height: 20vh;
         border: none;
         border-radius: 0;
     }
