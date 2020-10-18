@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    background-color: #000000;
+}
+
+.squareContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-height: 93vh;
+    overflow: hidden;
+}
+
+.square {
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    height: 20px;
+    background-color: #222222;
+    margin: 2px;
+    transition: 2s ease;
+}
+
+.square:hover {
+	transition-duration: 0s;
+}
+
+.colorController {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.colorPaletteContainer {
+    display: flex;
+    height: 6vh;
+    margin: 0px 5px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.colorPalette {
+    width: 2.4vw;
+}
