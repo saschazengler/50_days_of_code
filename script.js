@@ -59,6 +59,10 @@ const projects = [ undefined,
     {
         title: 'Hover Board',
         link: '/100_days_of_code/Day_15_Hover_Board'
+    },
+    {
+        title: 'Silverstein Colors',
+        link: '/100_days_of_code/Day_16_Silverstein_Colors'
     }
 ];
 
