@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #111214;
+}
+
+#submitButton, .userData {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    color: #eee;
+}
+
+#submitButton {
+    background-color: inherit;
+    border: 0.1em solid #eee;
+    padding: 0.3em;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0.25em #eee;
+}
+
+.userData {
+    margin: 0.5em 0;
+}
+
+@media screen and (max-width: 767px) {
+    #submitButton, .userData {
+        font-size: 1.5em;
+    }
+}
