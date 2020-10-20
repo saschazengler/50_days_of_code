@@ -63,6 +63,10 @@ const projects = [ undefined,
     {
         title: 'Silverstein Colors',
         link: '/100_days_of_code/Day_16_Silverstein_Colors'
+    },
+    {
+        title: 'IP Address',
+        link: '/100_days_of_code/Day_17_IP_Address'
     }
 ];
 
