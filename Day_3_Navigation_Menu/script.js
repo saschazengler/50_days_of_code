@@ -1,3 +1,6 @@
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 const navbar = document.getElementById('navbar');
 const firstLine = document.getElementById('firstLine');
 const secondLine = document.getElementById('secondLine');
