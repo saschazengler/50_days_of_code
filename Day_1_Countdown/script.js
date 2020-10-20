@@ -1,3 +1,6 @@
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 const countdown = document.getElementById('countdown');
 let endDate = new Date('Jan 11, 2021 11:59:59').getTime();
 
