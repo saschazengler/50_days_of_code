@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+p {
+    display: none;
+}
+
+.color {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+    color: #111214;
+}
