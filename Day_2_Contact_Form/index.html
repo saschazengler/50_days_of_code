@@ -7,21 +7,16 @@
     <title>Contact Form</title>
 </head>
 <body>
-    <div id="container">
-        <h1 id="title">Get in touch</h1>
-        <form id="form">
-            <label for="name">Surname</label>
-            <input class="input" type="text" name="contact" id="surename" maxlength="30">
-            <label for="name">Name</label>
-            <input class="input" type="text" name="contact" id="name" maxlength="30">
-            <label for="name">Email Address</label>
-            <input class="input" type="text" name="contact" id="emailAddress" maxlength="30">
-            <span id="vaildationMessage">Please enter a valid email address</span>
-            <textarea class="input" name="contact" id="textarea" cols="30" rows="8" maxlength="200"></textarea>
-            <input class="input" type="button" value="Submit" id="button">
-        </form>
-        <span id="successMessage">Thank you! We're on our way.</span>
-    </div>
+    <h1 id="title">Contact</h1>
+    <form id="form">
+        <input class="input" type="text" name="contact" id="surname" maxlength="30" placeholder="surename" autofocus>
+        <input class="input" type="text" name="contact" id="name" maxlength="30" placeholder="name">
+        <input class="input" type="text" name="contact" id="emailAddress" maxlength="30" placeholder="email address">
+        <span id="vaildationMessage"></span>
+        <textarea class="input" name="contact" id="textarea" cols="30" rows="3" maxlength="200"></textarea>
+        <input class="input" type="button" value="Submit" id="button">
+    </form>
+    <span id="successMessage"></span>
     <script src="script.js"></script>
 </body>
 </html>
