@@ -1,3 +1,6 @@
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 const submitButton = document.getElementById('submitButton');
 const ipAddressDisplay = document.getElementById('ipAddress');
 const cityDisplay = document.getElementById('city');
