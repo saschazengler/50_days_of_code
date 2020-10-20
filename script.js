@@ -1,3 +1,4 @@
+const body = document.getElementsByTagName('body')[0];
 const projectContainer = document.getElementById('projectContainer');
 const projects = [ undefined,
     {
@@ -54,7 +55,7 @@ const projects = [ undefined,
     },
     {
         title: 'Overview Site',
-        link: '/100_days_of_code/Day_14_Overview_Site'
+        link: ''
     },
     {
         title: 'Hover Board',
@@ -69,6 +70,17 @@ const projects = [ undefined,
         link: '/100_days_of_code/Day_17_IP_Address'
     }
 ];
+
+
+function redirectOverviewSite(event) {
+    const title = '14. Overview Site';
+    if (event.target.innerText === title) {
+        alert('This is the overview site you are looking at.');
+        window.stop();
+    };
+};
+
+body.addEventListener('click', (event) => redirectOverviewSite(event));
 
 
 for (let i = 1; i <= 100; i++) {
