@@ -70,7 +70,7 @@ const projects = [ undefined,
         link: '/100_days_of_code/Day_17_IP_Address'
     },
     {
-        title: 'console.log() quiz',
+        title: 'console.log() Quiz',
         link: '/100_days_of_code/Day_18_console.log()_Quiz'
     }
 ];
