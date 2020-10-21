@@ -71,7 +71,7 @@ const projects = [ undefined,
     },
     {
         title: 'console.log() quiz',
-        link: '/100_days_of_code/Day_18_console.log()_quiz'
+        link: '/100_days_of_code/Day_18_console.log()_Quiz'
     }
 ];
 
