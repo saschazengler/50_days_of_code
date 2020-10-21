@@ -69,6 +69,10 @@ const projects = [ undefined,
     {
         title: 'IP Address',
         link: '/100_days_of_code/Day_17_IP_Address'
+    },
+    {
+        title: 'console.log() quiz',
+        link: '/100_days_of_code/Day_18_console.log()_quiz'
     }
 ];
 
