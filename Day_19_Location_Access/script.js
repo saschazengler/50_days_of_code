@@ -6,11 +6,11 @@ let longitude = 0;
 
 
 function getCurrentLocation() {
-    navigator.geolocation.getCurrentPosition(showPosition);
+    navigator.geolocation.getCurrentPosition(setPosition);
 };
 
 
-function showPosition(position) {
+function setPosition(position) {
     latitude = position.coords.latitude;
     longitude = position.coords.longitude;
 
@@ -24,7 +24,7 @@ function showLocation() {
     const node = document.createElement('iframe');
     node.setAttribute('frameborder', '0');
     node.classList.add('map');
-    node.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAAzcvpUuLyLRYhK3rLWlgnKz-GEYbKfEY&callback=initMap';
+    node.src = `https://www.google.com/maps/embed/v1/view?key=AIzaSyAAzcvpUuLyLRYhK3rLWlgnKz-GEYbKfEY&center=${latitude},${longitude}&zoom=15`;
     body.appendChild(node);
 };
 
