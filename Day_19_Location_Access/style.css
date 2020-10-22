@@ -1,15 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     width: 100vw;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     background-color: #111214;
 }
 
@@ -19,6 +20,7 @@ button {
     color: #eee;
     background-color: inherit;
     border: 0.1em solid #eee;
+    outline: none;
     padding: 0.3em;
 }
 
