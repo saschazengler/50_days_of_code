@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #111214;
+}
+
+button {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    color: #eee;
+    background-color: inherit;
+    border: 0.1em solid #eee;
+    padding: 0.3em;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0.25em #eee;
+}
+
+.map {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
