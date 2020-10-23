@@ -77,6 +77,10 @@ const projects = [ undefined,
     {
         title: 'Location Access',
         link: '/100_days_of_code/Day_19_Location_Access'
+    },
+    {
+        title: 'Favourite Songs',
+        link: '/100_days_of_code/Day_20_Favourite_Songs'
     }
 ];
 
