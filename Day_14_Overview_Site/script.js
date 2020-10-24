@@ -81,6 +81,10 @@ const projects = [ undefined,
     {
         title: 'Favourite Songs',
         link: '/100_days_of_code/Day_20_Favourite_Songs'
+    },
+    {
+        title: 'Quotes',
+        link: '/100_days_of_code/Day_21_Quotes'
     }
 ];
 
