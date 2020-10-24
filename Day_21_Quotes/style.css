@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111214;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    margin: 10em;
+}
+
+/* media query smartphone */
+@media screen and (max-width: 767px) {
+    p {
+        margin: 1em;
+    }
+}
