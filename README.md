@@ -21,3 +21,4 @@
 19. Location Access
 20. Favourite Songs
 21. Quotes
+22. Numeric Input

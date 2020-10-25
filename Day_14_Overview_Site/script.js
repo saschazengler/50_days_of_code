@@ -85,6 +85,10 @@ const projects = [ undefined,
     {
         title: 'Quotes',
         link: '/100_days_of_code/Day_21_Quotes'
+    },
+    {
+        title: 'Numeric Input',
+        link: '/100_days_of_code/Day_22_Numeric_Input'
     }
 ];
 
