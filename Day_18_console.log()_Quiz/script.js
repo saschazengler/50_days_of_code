@@ -1,9 +1,7 @@
 let userPoints = 0;
 
 
-function showPoints() {
-    console.log(userPoints);
-};
+console.log('Run gameStart() to start the game');
 
 
 function gameStart() {
@@ -38,8 +36,6 @@ function gameStart() {
         questionOne();
     }, 30000);
 };
-
-gameStart();
 
 
 
