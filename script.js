@@ -88,6 +88,10 @@ const projects = [ undefined,
     {
         title: 'Numeric Input',
         link: '/100_days_of_code/Day_22_Numeric_Input'
+    },
+    {
+        title: 'Horizontal Scrolling',
+        link: '/100_days_of_code/Day_23_Horizontal_Scrolling'
     }
 ];
 
