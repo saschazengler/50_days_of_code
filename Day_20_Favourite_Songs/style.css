@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+    background-color: #F6E7CB;
+}
+
+div {
+    margin: 3em 0;
+}
+
+p {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    color: #111214;
+    text-align: center;
+}
+
+span {
+    font-size: 0.8em;
+    color: #DD9787;
+}
+
+/* media query smartphone */
+@media screen and (max-width: 767px) {
+    p {
+        font-size: 1.2em;
+    }
+}
