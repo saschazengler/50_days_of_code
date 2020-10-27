@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #F7EBEC;
+}
+
+#count {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    color: #1D1E2C;
+}
