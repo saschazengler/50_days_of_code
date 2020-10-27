@@ -92,6 +92,10 @@ const projects = [ undefined,
     {
         title: 'Horizontal Scrolling',
         link: '/100_days_of_code/Day_23_Horizontal_Scrolling'
+    },
+    {
+        title: 'Visit Count',
+        link: '/100_days_of_code/Day_24_Visit_Count'
     }
 ];
 
