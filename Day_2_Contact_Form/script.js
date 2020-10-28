@@ -12,6 +12,7 @@ const textarea = document.getElementById('textarea');
 const button = document.getElementById('button');
 const successMessage = document.getElementById('successMessage');
 
+
 const successText = 'Thank you! We\'re on our way.';
 const errorText = 'Please enter a valid';
 
