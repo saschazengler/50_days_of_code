@@ -96,6 +96,10 @@ const projects = [ undefined,
     {
         title: 'Visit Count',
         link: '/100_days_of_code/Day_24_Visit_Count'
+    },
+    {
+        title: 'Login',
+        link: '/100_days_of_code/Day_25_Login'
     }
 ];
 
