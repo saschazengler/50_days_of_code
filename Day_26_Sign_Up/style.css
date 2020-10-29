@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    background-color: #2F2E2E;
+}
+
+.loginContainer {
+    width: 50vw;
+    background-color: #2F2E2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.loginContainer > * {
+    font-family: Avenir Next, sans-serif;
+    font-weight: 400;
+    color: #FBCFC5;
+}
+
+#exitButton {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+#exitButton:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    margin: 1em 0;
+}
+
+input {
+    width: 18.75em;
+    height: 3.125em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    background-color: inherit;
+    border: 0.15em solid #FBCFC5;
+    border-radius: 0;
+    outline: none;
+    padding: 0.6em;
+    -webkit-appearance: none;
+}
+
+#name, #lastName, #email, #password {
+    margin: 0.8em 0;
+}
+
+#loginButton {
+    letter-spacing: 0.3em;
+    margin: 2em 0 1.5em 0;
+}
+
+#loginButton:hover {
+    cursor: pointer;
+    color: #2F2E2E;
+    background-color: #FBCFC5;
+}
+
+#signUpMessage {
+    font-size: 1em;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #FBCFC5;
+}
+
+.quoteContainer {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+#quote {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #2F2E2E;
+    margin: 0 5em;
+}
+
+@media screen
+    and (min-width: 768px)
+    and (max-width: 1023px) {
+        h1 {
+            font-size: 1.5em;
+        }
+
+        input {
+            width: 15.625em;
+            height: 3em;
+        }
+
+        #quote {
+            font-size: 1.5em;
+            margin: 0 2em;
+        }
+}
+
+@media screen and (max-width: 767px) {
+    .loginContainer {
+        width: 100vw;
+    }
+    
+    #exitButton {
+        display: none;
+    }
+
+    .quoteContainer {
+        display: none;
+
+    }
+}
