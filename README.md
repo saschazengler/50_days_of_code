@@ -25,3 +25,4 @@
 23. Horizontal Scrolling
 24. Visit Count
 25. Login
+26. Sign Up
