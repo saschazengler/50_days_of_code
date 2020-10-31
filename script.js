@@ -108,6 +108,10 @@ const projects = [ undefined,
     {
         title: 'Currency Converter',
         link: '/100_days_of_code/Day_27_Currency_Converter'
+    },
+    {
+        title: 'Sean Connery',
+        link: '/100_days_of_code/Day_28_Sean_Connery'
     }
 ];
 
