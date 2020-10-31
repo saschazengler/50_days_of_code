@@ -104,6 +104,10 @@ const projects = [ undefined,
     {
         title: 'Sign Up',
         link: '/100_days_of_code/Day_26_Sign_Up'
+    },
+    {
+        title: 'Currency Converter',
+        link: '/100_days_of_code/Day_27_Currency_Converter'
     }
 ];
 
