@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <input type="number" name="billAmount" inputmode="numeric" pattern="[0-9]*" data-type="currency" id="billAmount" placeholder="bill amount in $" autofocus>
+    <input type="number" name="tipAmount" inputmode="numeric" pattern="[0-9]*" id="tipAmount" placeholder="tip amount in %">
+    <button id="calculateButton">Calculate Tip</button>
+    <p id="tipPaid">Tip paid:</p>
+    <p id="billPaid">Bill paid:</p>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #111214;
+}
+
+input, button, p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2em;
+    color: #eee;
+    appearance: textfield;
+}
+
+input, button {
+    background-color: inherit;
+    border: 0.1em solid #eee;
+}
+
+input {
+    outline: none;
+    margin: 0.5em 0;
+    padding: 0.7em;
+}
+
+button {
+    margin: 1.2em 0;
+    padding: 0.5em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #1b1c1f;
+}
+
+p {
+    margin: 0.3em;
+}
+
+@media (max-width: 767px) {
+    input, button, p {
+        font-size: 1.5em;
+    }
+}
