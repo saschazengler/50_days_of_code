@@ -112,6 +112,10 @@ const projects = [ undefined,
     {
         title: 'Sean Connery',
         link: '/100_days_of_code/Day_28_Sean_Connery'
+    },
+    {
+        title: 'Tip Calculator',
+        link: '/100_days_of_code/Day_29_Tip_Calculator'
     }
 ];
 
