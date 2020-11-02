@@ -5,12 +5,26 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-iframe {
+#image {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#video {
     width: 100vw;
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
