@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verify Account</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">Verify your account</h1>
+        <p id="message">
+            We emailed you a six digit code.
+            Enter the code below to confirm your email address.
+        </p>
+        <div id="digitContainer">
+            <input type="number" maxlength="1" name="userInput" inputmode="numeric" pattern="[0-9]*" id="firstDigit" placeholder="0" autofocus>
+            <input type="number" maxlength="1" name="userInput" inputmode="numeric" pattern="[0-9]*" id="secondDigit" placeholder="0">
+            <input type="number" maxlength="1" name="userInput" inputmode="numeric" pattern="[0-9]*" id="thirdDigit" placeholder="0">
+            <input type="number" maxlength="1" name="userInput" inputmode="numeric" pattern="[0-9]*" id="fourthDigit" placeholder="0">
+            <input type="number" maxlength="1" name="userInput" inputmode="numeric" pattern="[0-9]*" id="fifthDigit" placeholder="0">
+            <input type="number" maxlength="1" name="userInput" inputmode="numeric" pattern="[0-9]*" id="sixthDigit" placeholder="0">
+        </div>
+        <button id="verifyButton">send</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
