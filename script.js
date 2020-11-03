@@ -116,6 +116,10 @@ const projects = [ undefined,
     {
         title: 'Tip Calculator',
         link: '/100_days_of_code/Day_29_Tip_Calculator'
+    },
+    {
+        title: 'Verify Account',
+        link: '/100_days_of_code/Day_31_Verify_Account'
     }
 ];
 
