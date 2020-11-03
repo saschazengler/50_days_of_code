@@ -119,6 +119,10 @@ const projects = [ undefined,
         link: '/100_days_of_code/Day_29_Tip_Calculator'
     },
     {
+        title: 'Daily Nasa',
+        link: '/100_days_of_code/Day_30_Daily_Nasa'
+    },
+    {
         title: 'Verify Account',
         link: '/100_days_of_code/Day_31_Verify_Account'
     }
