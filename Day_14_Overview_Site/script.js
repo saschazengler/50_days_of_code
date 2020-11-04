@@ -125,6 +125,10 @@ const projects = [ undefined,
     {
         title: 'Verify Account',
         link: '/100_days_of_code/Day_31_Verify_Account'
+    },
+    {
+        title: 'Rick Astley',
+        link: '/100_days_of_code/Day_32_Rick_Astley'
     }
 ];
 
