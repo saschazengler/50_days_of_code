@@ -4,25 +4,26 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 const body = document.getElementsByTagName('body')[0];
 const video = document.getElementById('video');
 
-const videoUrl = 'https://www.youtube.com/watch?v=siuXtG4-Tbo';
-
-// function setAttributes(video, attributes) {
-//     Object.keys(attributes).forEach(attribute => video.setAttribute(attribute, attributes[attribute]));
-// };
+let videoUrl = 'https://www.youtube.com/embed/siuXtG4-Tbo';
 
 
-// function createVideo() {
-//     const video = document.createElement('iframe');
-//     setAttributes(video, {
-//         src: videoUrl,
-//         id: 'video',
-//         autoplay: 1,
-//         controls: 0,
-//         frameborder: 0,
-//         allowfullscreen: true
-//     });
-//     body.appendChild(video);
-// };
+function setAttributes(video, attributes) {
+    Object.keys(attributes).forEach(attribute => video.setAttribute(attribute, attributes[attribute]));
+};
+
+
+function createVideo() {
+    const video = document.createElement('iframe');
+    setAttributes(video, {
+        src: videoUrl,
+        id: 'video',
+        autoplay: 1,
+        controls: 0,
+        frameborder: 0,
+        allowfullscreen: true
+    });
+    body.appendChild(video);
+};
 
 
 function createText() {
@@ -32,8 +33,7 @@ function createText() {
 
     setTimeout(() => {
         body.removeChild(node);
-        // createVideo();
-        video.style.display = 'block';
+        createVideo();
     }, 4000);
 };
 
