@@ -6,24 +6,23 @@ const video = document.getElementById('video');
 
 const videoUrl = 'https://www.youtube.com/watch?v=siuXtG4-Tbo';
 
+// function setAttributes(video, attributes) {
+//     Object.keys(attributes).forEach(attribute => video.setAttribute(attribute, attributes[attribute]));
+// };
 
-function setAttributes(video, attributes) {
-    Object.keys(attributes).forEach(attribute => video.setAttribute(attribute, attributes[attribute]));
-};
 
-
-function createVideo() {
-    const video = document.createElement('iframe');
-    setAttributes(video, {
-        src: videoUrl,
-        id: 'video',
-        autoplay: 1,
-        controls: 0,
-        frameborder: 0,
-        allowfullscreen: true
-    });
-    body.appendChild(video);
-};
+// function createVideo() {
+//     const video = document.createElement('iframe');
+//     setAttributes(video, {
+//         src: videoUrl,
+//         id: 'video',
+//         autoplay: 1,
+//         controls: 0,
+//         frameborder: 0,
+//         allowfullscreen: true
+//     });
+//     body.appendChild(video);
+// };
 
 
 function createText() {
@@ -33,7 +32,8 @@ function createText() {
 
     setTimeout(() => {
         body.removeChild(node);
-        createVideo();
+        // createVideo();
+        video.style.display = 'block';
     }, 4000);
 };
 
