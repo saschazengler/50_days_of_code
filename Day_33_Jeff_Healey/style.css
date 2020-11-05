@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111214;
+}
+
+p {
+    font-family: Avenir Next, sans-serif;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+#video {
+    width: 100vw;
+    height: 100vh;
+}
