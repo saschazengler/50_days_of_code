@@ -129,6 +129,10 @@ const projects = [ undefined,
     {
         title: 'Rick Astley',
         link: '/100_days_of_code/Day_32_Rick_Astley'
+    },
+    {
+        title: 'Jeff Healey',
+        link: '/100_days_of_code/Day_33_Jeff_Healey'
     }
 ];
 
