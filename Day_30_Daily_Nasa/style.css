@@ -18,10 +18,10 @@ body {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     background: no-repeat center center fixed;
+	background-size: cover;
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
 }
 
 #video {
