@@ -132,6 +132,10 @@ const projects = [ undefined,
     {
         title: 'Jeff Healey',
         link: '/100_days_of_code/Day_33_Jeff_Healey'
+    },
+    {
+        title: 'Binary',
+        link: '/100_days_of_code/Day_34_Binary'
     }
 ];
 
