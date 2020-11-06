@@ -12,13 +12,13 @@ body {
     align-items: center;
     flex-flow: column nowrap;
     box-sizing: border-box;
-    background-color: #584B53;
+    background-color: #0D1321;
 }
 
 h1, label, input {
     font-family: Avenir, sans-serif;
     font-size: 1em;
-    color: #E4BB97;
+    color: #F0EBD8;
     text-align: center;
 }
 
@@ -32,8 +32,8 @@ label {
 
 input {
     height: 2em;
-    background-color: #9D5C63;
-    border: 0.125em solid #E4BB97;
+    background-color: #1D2D44;
+    border: 0.125em solid #F0EBD8;
     margin-bottom: 2em;
     outline: none;
 }
