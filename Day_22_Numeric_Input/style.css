@@ -34,6 +34,7 @@ input {
     height: 2em;
     background-color: #1D2D44;
     border: 0.125em solid #F0EBD8;
+    border-radius: 0.2em;
     margin-bottom: 2em;
     outline: none;
 }
