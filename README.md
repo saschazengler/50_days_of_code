@@ -34,6 +34,6 @@
 32. Rick Astley
 33. Jeff Healey
 34. Binary
-35.
+35. Scroll Indicator
 36.
 37. Minimal Element
