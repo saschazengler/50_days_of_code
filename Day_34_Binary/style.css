@@ -7,6 +7,23 @@
     -webkit-font-smoothing: antialiased;
 }
 
+::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #358395; 
+    border-radius: 0.5em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #265f6b; 
+}
+
+::-webkit-scrollbar-corner {
+    background: none;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -16,6 +33,7 @@ body {
     align-items: center;
     flex-flow: column;
     background-color: #232323;
+    scrollbar-color: light;
 }
 
 #userInput, #binary {
@@ -38,11 +56,13 @@ body {
     line-height: 2;
     word-wrap: break-word;
     margin: 2em;
+    overflow: scroll;
 }
 
 @media screen and (max-width: 767px) {
     #userInput {
         width: 90%;
+        margin-top: 3em;
     }
     
     #userInput, #binary {

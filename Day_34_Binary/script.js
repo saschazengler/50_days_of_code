@@ -19,6 +19,13 @@ function convertInputToBinary() {
     };
     
     binaryWrapper.innerText = binary;
+    scrollToBottom();
 };
+
+
+function scrollToBottom() {
+    binaryWrapper.scrollTo(0, binaryWrapper.scrollHeight);
+};
+
 
 userInput.addEventListener('input', convertInputToBinary);
