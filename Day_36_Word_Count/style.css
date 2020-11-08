@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+#userInput {
+    width: 60%;
+    height: 70%;
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    color: #F0F7EE;
+    background-color: inherit;
+    border: 0.2em solid #FFF07C;
+    outline: none;
+    margin-right: 3em;
+    padding: 0.5em;
+}
+
+#displayCount {
+    font-family: Avenir, sans-serif;
+    font-size: 4em;
+    color: #FFF07C;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        flex-flow: column;
+    }
+
+    #userInput {
+        width: 100%;
+        height: 60%;
+        font-size: 1.5em;
+        overflow: scroll;
+        margin: 0 0 2em 0;
+    }
+    
+    #displayCount {
+        font-size: 3em;
+    }
+}

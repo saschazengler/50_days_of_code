@@ -35,5 +35,5 @@
 33. Jeff Healey
 34. Binary
 35. Scroll Indicator
-36. Silverstein Count
+36. Word Count
 37. Minimal Element
