@@ -143,8 +143,8 @@ const projects = [ undefined,
         link: '/100_days_of_code/Day_35_Scroll_Indicator'
     },
     {
-        title: '',
-        link: '/100_days_of_code/Day_36_'
+        title: 'Silverstein Count',
+        link: '/100_days_of_code/Day_36_Silverstein_Count'
     },
     {
         title: 'Minimal Element',
