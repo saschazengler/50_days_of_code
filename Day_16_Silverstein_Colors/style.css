@@ -12,8 +12,7 @@ body {
 .colorWrapper {
     height: 100vh;
     display: flex;
-    justify-content: end;
-    align-items: center;
+    justify-content: flex-end;
     flex-flow: column;
 }
 
