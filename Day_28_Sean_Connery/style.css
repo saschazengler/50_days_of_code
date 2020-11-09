@@ -7,6 +7,7 @@
 }
 
 body {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,15 +38,15 @@ img {
 
 @media (max-width: 767px) {
     p {
-        font-size: 1.3em;
+        font-size: 2em;
     }
 
     span {
-        font-size: 0.6em;
+        font-size: 0.5em;
     }
 
     img {
-        width: 70%;
+        width: 90%;
         margin-top: 2em;
     }
 }
