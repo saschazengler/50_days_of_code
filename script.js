@@ -137,6 +137,10 @@ const projects = [ undefined,
     {
         title: 'Binary',
         link: '/100_days_of_code/Day_34_Binary'
+    },
+    {
+        title: 'Minimal Element',
+        link: '/100_days_of_code/Day_35_Minimal_Element'
     }
 ];
 
