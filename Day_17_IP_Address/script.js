@@ -42,7 +42,7 @@ function getApiData() {
 
 
 function displayData(ip, city, country, timezone) {
-    userData.style.display = 'block';
+    userData.forEach(element => element.style.display = 'block');
     submitButton.style.display = 'none';
     ipAddressDisplay.innerText = `{ ${ip} }`;
     cityDisplay.innerText = city;
