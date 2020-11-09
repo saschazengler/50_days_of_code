@@ -139,8 +139,16 @@ const projects = [ undefined,
         link: '/100_days_of_code/Day_34_Binary'
     },
     {
+        title: '',
+        link: '/100_days_of_code/Day_35_'
+    },
+    {
+        title: '',
+        link: '/100_days_of_code/Day_36_'
+    },
+    {
         title: 'Minimal Element',
-        link: '/100_days_of_code/Day_35_Minimal_Element'
+        link: '/100_days_of_code/Day_37_Minimal_Element'
     }
 ];
 
