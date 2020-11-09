@@ -1,5 +1,6 @@
 const body = document.getElementsByTagName('body')[0];
 const projectContainer = document.getElementById('projectContainer');
+
 const projects = [ undefined,
     {
         title: 'Countdown',

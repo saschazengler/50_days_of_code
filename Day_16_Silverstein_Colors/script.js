@@ -1,52 +1,37 @@
 const body = document.getElementsByTagName('body')[0];
 
+const abptd = 'a beautiful place to drown';
+const lwbief = 'live: when broken is easily fixed';
+const rtfty = 'redux: The first 10 years';
+const dr = 'dead reflection';
+const iaaieit = 'i am alive in everything i touch';
+const tihtws = 'this is how the wind shifts';
+const ss = 'short songs';
+const r = 'rescue';
+const asits = 'a shipwreck in the sand';
+const aad = 'arrivals and departures';
+const dtw = 'discovering the waterfront';
+const wbief = 'when broken is easily fixed';
 
-// const abptd = document.getElementById('abptd');
-// const lwbief = document.getElementById('lwbief');
-// const rtfty = document.getElementById('rtfty');
-// const dr = document.getElementById('dr');
-// const iaaieit = document.getElementById('iaaieit');
-// const tihtws = document.getElementById('tihtws');
-// const ss = document.getElementById('ss');
-// const r = document.getElementById('r');
-// const asits = document.getElementById('asits');
-// const aad = document.getElementById('aad');
-// const dtw = document.getElementById('dtw');
-// const wbief = document.getElementById('wbief');
-// const x = [abptd, lwbief, rtfty, dr, iaaieit, tihtws, ss, r, asits, aad, dtw, wbief];
+const albumId = [abptd, lwbief, rtfty, dr, iaaieit, tihtws, ss, r, asits, aad, dtw, wbief];
 
-const colors = ['rgb(248, 193, 216)', 'rgb(239, 59, 36)', 'rgb(146, 168, 152)', 'rgb(203, 49, 75)', 'rgb(157, 151, 60)', 'rgb(119, 144, 157)', 'rgb(206, 210, 86)', 'rgb(172, 134, 96)', 'rgb(164, 173, 106)', 'rgb(50, 98, 150)', 'rgb(100, 78, 86)', 'rgb(166, 70, 46)'];
+const colors = ['#f8c1d8', '#ef3b24', '#92a898', '#cb314b', '#9d973c', '#77909d', '#ced256', '#ac8660', '#a4ad6a', '#326296', '#644e56', '#a6462e'];
 
-const colorId = ['abptd', 'lwbief', 'rtfty', 'dr', 'iaaieit', 'tihtws', 'ss', 'r', 'asits', 'aad', 'dtw', 'wbief'];
-
-
-const colorElementCollection = [];
 
 for (let i = 0; i < colors.length; i++) {
     const divElement = document.createElement('div');
-    divElement.classList.add('color');
-    divElement.id = colorId[i];
+    divElement.classList.add('colorWrapper');
     divElement.style.backgroundColor = colors[i];
+
+    const title = document.createElement('p');
+    title.classList.add('title');
+    title.innerText = albumId[i];
+
+    const color = document.createElement('p');
+    color.classList.add('color');
+    color.innerText = colors[i];
+
     body.appendChild(divElement);
-    colorElementCollection.push(divElement);
+    divElement.append(title);
+    divElement.appendChild(color);
 };
-
-
-
-
-for (let colorElement of colorElementCollection) {
-    colorElement.addEventListener('click', (event) => searchFunction(event));
-};
-
-
-function searchFunction(event) {
-
-    for (let colorElement of colorElementCollection) {
-        if (event.target.id === colorElement.id) {
-            console.log(true);
-        } else console.log(false);       
-    }; 
-};
-
-
-

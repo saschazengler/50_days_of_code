@@ -1,24 +1,31 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    box-sizing: border-box;
     display: flex;
     flex-flow: column nowrap;
 }
 
-p {
-    display: none;
+.colorWrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-flow: column;
+}
+
+.title, .color {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin: 0 0.7em 1em 0.7em;
 }
 
 .color {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    font-family: Helvetica, sans-serif;
-    font-size: 2em;
-    color: #111214;
+    font-size: 1em;
+    margin-bottom: 3em;
 }

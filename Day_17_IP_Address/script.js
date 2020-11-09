@@ -1,6 +1,7 @@
 let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
+const userData = document.querySelectorAll('.userData');
 const submitButton = document.getElementById('submitButton');
 const ipAddressDisplay = document.getElementById('ipAddress');
 const cityDisplay = document.getElementById('city');
@@ -41,6 +42,7 @@ function getApiData() {
 
 
 function displayData(ip, city, country, timezone) {
+    userData.style.display = 'block';
     submitButton.style.display = 'none';
     ipAddressDisplay.innerText = `{ ${ip} }`;
     cityDisplay.innerText = city;
