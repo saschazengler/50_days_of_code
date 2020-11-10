@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+body {
+    width: 100vw;
+}  
+
+#image {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: cover;
+}
+
+#cursor {
+    width: 16px;
+    height: 23px;
+    position: absolute;
+    background-color: #f4afc2;
+    border-radius: 50%;
+    transform: scale(3);
+    -moz-transform: scale(3);   
+}
+
+::selection {
+    background: none;
+}
+
+::-moz-selection {
+    background: none;
+}
