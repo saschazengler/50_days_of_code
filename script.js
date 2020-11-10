@@ -149,6 +149,10 @@ const projects = [ undefined,
     {
         title: 'Minimal Element',
         link: '/100_days_of_code/Day_37_Minimal_Element'
+    },
+    {
+        title: 'Image Slider',
+        link: '/100_days_of_code/Day_38_Image_Slider'
     }
 ];
 
