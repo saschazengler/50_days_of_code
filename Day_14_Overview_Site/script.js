@@ -153,6 +153,10 @@ const projects = [ undefined,
     {
         title: 'Image Slider',
         link: '/100_days_of_code/Day_38_Image_Slider'
+    },
+    {
+        title: 'HTML Structure',
+        link: '/100_days_of_code/Day_39_HTML_Structure'
     }
 ];
 
