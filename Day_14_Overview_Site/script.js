@@ -157,6 +157,10 @@ const projects = [ undefined,
     {
         title: 'HTML Structure',
         link: '/100_days_of_code/Day_39_HTML_Structure'
+    },
+    {
+        title: 'Dominos Pizza',
+        link: '/100_days_of_code/Day_40_Dominos_Pizza'
     }
 ];
 

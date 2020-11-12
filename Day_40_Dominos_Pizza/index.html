@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dominos Pizza Tracker</title>
+</head>
+<body>
+    <main id="main">
+      <section id="container">        
+        <svg id="order" width="202" height="120">
+          <defs>
+            <linearGradient x1="100%" y1="100%" x2="0%" y2="100%">
+              <stop offset="100%" stop-color="#fff"/>
+              <stop offset="100%" stop-color="#2274A5"/>
+            </linearGradient>
+          </defs>
+          <polygon points="1,1 140,1 200,57 140,117 1,117" fill="#fff" />
+          <text x="70" y="62" fill="#333" anchor="middle">ordered</text>
+        </svg>
+        <svg id="making" width="202" height="120">
+          <defs>
+            <linearGradient x1="100%" y1="100%" x2="0%" y2="100%">
+              <stop offset="100%" stop-color="#fff"/>
+              <stop offset="100%" stop-color="#2274A5"/>
+            </linearGradient>
+          </defs>
+          <polygon points="61,57 1,1 140,1 200,57 140,117 1,117" fill="#fff" />
+          <text x="70" y="62" fill="#333">in the making</text>
+        </svg>
+        <svg id="oven" width="202" height="120">
+          <defs>
+            <linearGradient x1="100%" y1="100%" x2="0%" y2="100%">
+              <stop offset="100%" stop-color="#fff"/>
+              <stop offset="100%" stop-color="#2274A5"/>
+            </linearGradient>
+          </defs>
+          <polygon points="61,57 1,1 140,1 200,57 140,117 1,117" fill="#fff" />
+          <text x="70" y="62" fill="#333">in the oven</text>
+        </svg>
+        <svg id="ready" width="202" height="120">
+          <defs>
+            <linearGradient x1="100%" y1="100%" x2="0%" y2="100%">
+              <stop offset="100%" stop-color="#fff"/>
+              <stop offset="100%" stop-color="#2274A5"/>
+            </linearGradient>
+          </defs>
+          <polygon points="61,57 1,1 140,1 200,57 140,117 1,117" fill="#fff" />
+          <text x="70" y="62" fill="#333">order ready</text>
+        </svg>
+        <svg id="delivery" width="202" height="120">
+          <defs>
+            <linearGradient x1="100%" y1="100%" x2="0%" y2="100%">
+              <stop offset="100%" stop-color="#fff"/>
+              <stop offset="100%" stop-color="#2274A5"/>
+            </linearGradient>
+          </defs>
+          <polygon points="61,57 1,1 140,1 200,57 140,117 1,117" fill="#fff" />
+          <text x="70" y="62" fill="#333">on delivery</text>
+        </svg>
+        <svg id="rate" width="202" height="120">
+          <defs>
+            <linearGradient x1="100%" y1="100%" x2="0%" y2="100%">
+              <stop offset="100%" stop-color="#fff"/>
+              <stop offset="100%" stop-color="#2274A5"/>
+            </linearGradient>
+          </defs>
+          <polygon points="61,57 1,1 140,1 200,57 140,117 1,117" fill="#fff" />
+          <text x="70" y="62" fill="#333">rate your order</text>
+        </svg>
+      </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

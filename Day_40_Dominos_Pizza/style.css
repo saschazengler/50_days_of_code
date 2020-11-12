@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+#container {
+    width: 950px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+svg {
+    position: absolute;
+}
+
+polygon {
+    stroke: #333;
+    stroke-width: 0.2em;
+}
+
+text {
+    font-family: Avenir, sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+#order {
+    left: 0;
+}
+
+#making {
+    left: 150px;
+}
+
+#oven {
+    left: 300px;
+}
+
+#ready {
+    left: 450px;
+}
+
+#delivery {
+    left: 600px;
+}
+
+#rate {
+    left: 750px;
+}
