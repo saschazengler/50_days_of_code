@@ -161,6 +161,10 @@ const projects = [ undefined,
     {
         title: 'Dominos Pizza',
         link: '/100_days_of_code/Day_40_Dominos_Pizza'
+    },
+    {
+        title: 'I Love/Hate CSS',
+        link: '/100_days_of_code/Day_41_I_Love_Hate_CSS'
     }
 ];
 

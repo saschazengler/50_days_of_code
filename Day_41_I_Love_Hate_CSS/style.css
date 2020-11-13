@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 50%;
+    height: 60%;
+    position: relative;
+}
+
+section div, span  {
+    position: absolute;
+    margin: 20px;
+}
+
+#coloredBox {
+    width: 25em;
+    height: 18em;
+    top: 20px;
+    right: 20px;
+    background-color: #40A9F5;
+}
+
+#border {
+    width: 21em;
+    height: 20em;
+    top: 70px;
+    right: 165px;
+    background-color: none;
+    border: 0.5em solid #000;
+}
+
+span {
+    font-family: Avenir, sans-serif;
+    font-size: 6em;
+    color: #000;
+    font-weight: 700;
+}
+
+#i {
+    right: 440px;
+}
+
+#hateLove {
+    top: 110px;
+    right: 140px;
+    opacity: 0;
+    animation: rotate 2s linear infinite 2s;
+}
+
+@keyframes rotate {
+    0% {opacity: 0%;}
+    20%, 80% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#css {
+    top: 245px;
+    right: 30px;
+}
