@@ -167,16 +167,12 @@ const projects = [ undefined,
         link: '/100_days_of_code/Day_41_I_Love_Hate_CSS'
     },
     {
-        title: '',
-        link: '/100_days_of_code/'
+        title: 'Counter',
+        link: '/100_days_of_code/Day_42_Counter'
     },
     {
         title: 'Button',
         link: '/100_days_of_code/Day_43_Button'
-    },
-    {
-        title: '',
-        link: '/100_days_of_code/'
     }
 ];
 

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #000;
+}
+
+.wrapper {
+    margin: 1em 0;
+}
+
+p {
+    font-family: Avenir, sans-serif;
+    font-size: 2em;
+    color: #fff;
+    margin: 1em 0;
+    text-align: center;
+}
