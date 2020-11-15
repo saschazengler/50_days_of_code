@@ -169,6 +169,10 @@ const projects = [ undefined,
     {
         title: 'Counter',
         link: '/100_days_of_code/Day_42_Counter'
+    },
+    {
+        title: 'Button',
+        link: '/100_days_of_code/Day_43_Button'
     }
 ];
 
