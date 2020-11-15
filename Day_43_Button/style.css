@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+}
+
+.button {
+	width: 23.125em;
+	line-height: 3.125em;
+	letter-spacing: 0.2em;
+	text-align: center;
+	border: 0.0625em solid #fdfdfd;
+	transition: letter-spacing, border, 0.4s;
+	margin: 2em 10em;
+}
+
+.button:hover {
+	letter-spacing: 0.5em;
+	border-color: #FFBCD7;
+}
+
+a {
+	color: #FFBCD7;
+	text-decoration: none;
+}
+
+span {
+	display: block;
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: #fdfdfd;
+	text-transform: uppercase;
+}
+
+span:hover {
+	color: #FFBCD7;
+}
