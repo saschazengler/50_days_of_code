@@ -165,6 +165,18 @@ const projects = [ undefined,
     {
         title: 'I Love/Hate CSS',
         link: '/100_days_of_code/Day_41_I_Love_Hate_CSS'
+    },
+    {
+        title: '',
+        link: '/100_days_of_code/'
+    },
+    {
+        title: 'Button',
+        link: '/100_days_of_code/Day_43_Button'
+    },
+    {
+        title: '',
+        link: '/100_days_of_code/'
     }
 ];
 
