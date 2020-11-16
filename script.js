@@ -173,6 +173,10 @@ const projects = [ undefined,
     {
         title: 'Button',
         link: '/100_days_of_code/Day_43_Button'
+    },
+    {
+        title: 'Hover Effect',
+        link: '/100_days_of_code/Day_44_Hover_Effect'
     }
 ];
 

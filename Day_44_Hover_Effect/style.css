@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.content-wrapper {
+    width: 300px;
+    position: relative;
+    font-family: Avenir, sans-serif;
+    font-size: 0.9em;
+    color: #fff;
+    text-align: justify;
+}
+
+#color-line {
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    background-color: lightcoral;
+    transition: all 0.3s linear 0s;
+    z-index: -1;
+}
+
+#text {
+    margin-left: 22px;
+}
+
+.content-wrapper:hover #color-line {
+    width: 105%;
+}
