@@ -177,6 +177,10 @@ const projects = [ undefined,
     {
         title: 'Hover Effect',
         link: '/100_days_of_code/Day_44_Hover_Effect'
+    },
+    {
+        title: 'Course Description',
+        link: '/100_days_of_code/Day_45_Course_Description'
     }
 ];
 

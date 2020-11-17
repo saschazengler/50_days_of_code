@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+}
+
+.course-description {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+    font-family: Playfair Display, serif;
+    font-size: 1em;
+    color: #111;
+    background-color: #D6F7EE;
+    padding: 50px;
+}
+
+h2, svg {
+    margin: 0 20px 40px 0;
+}
+
+ul {
+    list-style: none;
+    font-family: Avenir, sans-serif;
+    font-size: 1.2em;
+    color: #111;
+}
+
+li {
+    margin: 10px;
+}
+
+li::before {
+    content: '✔︎';
+    margin-right: 10px;
+}
