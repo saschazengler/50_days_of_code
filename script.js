@@ -181,6 +181,10 @@ const projects = [ undefined,
     {
         title: 'Course Description',
         link: '/100_days_of_code/Day_45_Course_Description'
+    },
+    {
+        title: 'Menu',
+        link: '/100_days_of_code/Day_46_Menu'
     }
 ];
 

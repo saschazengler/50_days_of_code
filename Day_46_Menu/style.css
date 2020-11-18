@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.menu-wrapper {
+    position: absolute;
+    top: 20%;
+    margin: 0 20px;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+}
+
+#firstLine, #secondLine, #thirdLine {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+}
+
+#thirdLine {
+    width: 24px;
+}
+
+ul {
+    position: fixed;
+    top: 20%;
+    display: none;
+    font-family: Avenir, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+    list-style: none;
+    margin-left: 70px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+    padding: 0 10px;
+}
