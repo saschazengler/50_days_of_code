@@ -187,8 +187,8 @@ const projects = [ undefined,
         link: '/50_days_of_code/Day_46_Menu'
     },
     {
-        title: '',
-        link: '/50_days_of_code/Day_47_'
+        title: 'Search',
+        link: '/50_days_of_code/Day_47_Search'
     },
     {
         title: '',
