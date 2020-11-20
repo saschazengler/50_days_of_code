@@ -191,8 +191,8 @@ const projects = [ undefined,
         link: '/50_days_of_code/Day_47_Search'
     },
     {
-        title: '',
-        link: '/50_days_of_code/Day_48_'
+        title: 'Josh',
+        link: '/50_days_of_code/Day_48_Josh'
     },
     {
         title: 'Slideshow',

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./image/josh.gif) no-repeat center center fixed #130628;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
