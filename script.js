@@ -185,6 +185,18 @@ const projects = [ undefined,
     {
         title: 'Menu',
         link: '/100_days_of_code/Day_46_Menu'
+    },
+    {
+        title: '',
+        link: '/100_days_of_code/Day_4'
+    },
+    {
+        title: '',
+        link: '/100_days_of_code/Day_4'
+    },
+    {
+        title: 'Slideshow',
+        link: '/100_days_of_code/Day_49_Slideshow'
     }
 ];
 

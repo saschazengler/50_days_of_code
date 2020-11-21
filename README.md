@@ -46,3 +46,6 @@
 44. Hover Effect
 45. Course Description
 46. Menu
+47.
+48.
+49. Slideshow
