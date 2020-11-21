@@ -5,7 +5,7 @@
 
 body {
     width: 100vw;
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     display: flex;
     justify-content: center;
@@ -86,7 +86,6 @@ p {
     color: #F5C469;
 }
 
-/* media query tablet */
 @media screen
     and (min-width: 768px)
     and (max-width: 1023px) {
@@ -117,7 +116,6 @@ p {
         }
 }
 
-/* media query smartphone */
 @media screen and (max-width: 767px) {
     #selectionContainer {
         height: 60vh;
