@@ -14,8 +14,8 @@ body {
 
 #wrapper {
     position: relative;
-    width: 90%;
-    height: 50%;
+    width: 60%;
+    height: 40%;
 }
 
 #image-wrapper {
@@ -24,9 +24,9 @@ body {
     justify-content: space-evenly;
     position: absolute;
     top: 10%;
-    right: 15%;
+    right: 5%;
     bottom: 10%;
-    left: 15%;
+    left: 5%;
     overflow: hidden;
 }
 
@@ -50,14 +50,15 @@ body {
 
 img {
     position: absolute;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     animation: moveImage 12s linear infinite;
+    z-index: -1;
 }
 
 @keyframes moveImage {
     0% {left: 100%;}
-    100% {left: -350%;}
+    100% {left: -100%;}
 }
 
 @media screen and (max-width: 767px) {
@@ -78,14 +79,5 @@ img {
     #leftOverlap {
         left: 0;
         right: 80%;
-    }
-
-    img {
-        height: 50%;
-    }
-
-    @keyframes moveImage {
-        0% {left: 100%;}
-        100% {left: -460%;}
     }
 }
