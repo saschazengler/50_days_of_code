@@ -188,15 +188,19 @@ const projects = [ undefined,
     },
     {
         title: '',
-        link: '/50_days_of_code/Day_4'
+        link: '/50_days_of_code/Day_47_'
     },
     {
         title: '',
-        link: '/50_days_of_code/Day_4'
+        link: '/50_days_of_code/Day_48_'
     },
     {
         title: 'Slideshow',
         link: '/50_days_of_code/Day_49_Slideshow'
+    },
+    {
+        title: 'Tech Stack',
+        link: '/50_days_of_code/Day_50_Tech_Stack'
     }
 ];
 

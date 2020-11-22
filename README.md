@@ -49,4 +49,4 @@
 47.
 48.
 49. Slideshow
-50.
+50. Tech Stack

@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 196, 105);
+}
+
+#wrapper {
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+
+#image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    bottom: 10%;
+    left: 15%;
+    overflow: hidden;
+}
+
+.overlap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+#rightOverlap {
+    right: 0;
+    left: 70%;
+    background-image: linear-gradient(to left, rgba(245, 196, 105, 1), rgba(245, 196, 105, 0));
+}
+
+#leftOverlap {
+    left: 0;
+    right: 70%;
+    background-image: linear-gradient(to right, rgba(245, 196, 105, 1), rgba(245, 196, 105, 0));
+}
+
+img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    animation: moveImage 12s linear infinite;
+}
+
+@keyframes moveImage {
+    0% {left: 100%;}
+    100% {left: -350%;}
+}
+
+@media screen and (max-width: 767px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    #image-wrapper {
+        right: 5%;
+        left: 5%;
+    }
+
+    #rightOverlap {
+        right: 0;
+        left: 80%;
+    }
+
+    #leftOverlap {
+        left: 0;
+        right: 80%;
+    }
+
+    img {
+        height: 50%;
+    }
+
+    @keyframes moveImage {
+        0% {left: 100%;}
+        100% {left: -460%;}
+    }
+}
