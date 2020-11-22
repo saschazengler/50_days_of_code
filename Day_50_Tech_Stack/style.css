@@ -51,14 +51,14 @@ body {
 img {
     position: absolute;
     height: auto;
-    width: 100%;
+    width: 1500px;
     animation: moveImage 12s linear infinite;
     z-index: -1;
 }
 
 @keyframes moveImage {
     0% {left: 100%;}
-    100% {left: -100%;}
+    100% {left: -1500px;}
 }
 
 @media screen and (max-width: 767px) {
@@ -66,18 +66,11 @@ img {
         width: 100%;
     }
 
-    #image-wrapper {
-        right: 5%;
-        left: 5%;
-    }
-
     #rightOverlap {
-        right: 0;
         left: 80%;
     }
 
     #leftOverlap {
-        left: 0;
         right: 80%;
     }
 }
