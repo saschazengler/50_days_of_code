@@ -10,11 +10,11 @@ let innerWidth = window.innerWidth;
 let halfWidth = innerWidth / 2;
 
 const miamiImages = [
-    '/100_days_of_code/Day_38_Image_Slider/image/one_miami.jpg',
-    '/100_days_of_code/Day_38_Image_Slider/image/two_miami.jpg',
-    '/100_days_of_code/Day_38_Image_Slider/image/three_miami.jpg',
-    '/100_days_of_code/Day_38_Image_Slider/image/four_miami.jpg',
-    '/100_days_of_code/Day_38_Image_Slider/image/five_miami.jpg'
+    './image/one_miami.jpg',
+    './image/two_miami.jpg',
+    './image/three_miami.jpg',
+    './image/four_miami.jpg',
+    './image/five_miami.jpg'
 ];
 
 image.setAttribute('style', `background: url(${miamiImages[index]}) no-repeat center center fixed`);
