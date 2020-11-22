@@ -46,7 +46,7 @@
 44. Hover Effect
 45. Course Description
 46. Menu
-47.
+47. Search
 48.
 49. Slideshow
 50. Tech Stack
